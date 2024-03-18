@@ -1,0 +1,90 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="round_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="dim=1 type=complete variable=m" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="round_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="dim=1 type=complete variable=state" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:45:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="permute" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=16" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="permute" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=16" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=compress" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:60:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=chaining_value offset=slave bundle=data0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:61:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite register port=chaining_value bundle=ctrl" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:63:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=block_words offset=slave bundle=data1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:64:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite register port=block_words bundle=ctrl" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:66:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite register port=counter bundle=ctrl" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:68:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite register port=block_len bundle=ctrl" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:70:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite register port=flags bundle=ctrl" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:72:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=out offset=slave bundle=data2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:73:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite register port=out bundle=ctrl" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:75:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite register port=return bundle=ctrl" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:97:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=16" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:116:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/hls_projects/compress/compress.cpp:123:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compress" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=16" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-359" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:59:0" msg_body="Unrolling loop 'compress_label3' (C:/hls_projects/compress/compress.cpp:122:19) in function 'compress': changing partial unrolling into complete unrolling since the unrolling factor (=16) is no less than the loop trip count (=16).">
+        <args Factor="16" LoopLoc="C:/hls_projects/compress/compress.cpp:122:19" LoopName="compress_label3" TripCount="16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:59:0" msg_body="Unrolling loop 'compress_label3' (C:/hls_projects/compress/compress.cpp:122:19) in function 'compress' completely with a factor of 16">
+        <args Factor="16" LoopLoc="C:/hls_projects/compress/compress.cpp:122:19" LoopName="compress_label3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:59:0" msg_body="Unrolling loop 'compress_label4' (C:/hls_projects/compress/compress.cpp:115:19) in function 'compress' completely with a factor of 8">
+        <args Factor="8" LoopLoc="C:/hls_projects/compress/compress.cpp:115:19" LoopName="compress_label4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-359" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:59:0" msg_body="Unrolling loop 'compress_label2' (C:/hls_projects/compress/compress.cpp:96:19) in function 'compress': changing partial unrolling into complete unrolling since the unrolling factor (=16) is no less than the loop trip count (=16).">
+        <args Factor="16" LoopLoc="C:/hls_projects/compress/compress.cpp:96:19" LoopName="compress_label2" TripCount="16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:59:0" msg_body="Unrolling loop 'compress_label2' (C:/hls_projects/compress/compress.cpp:96:19) in function 'compress' completely with a factor of 16">
+        <args Factor="16" LoopLoc="C:/hls_projects/compress/compress.cpp:96:19" LoopName="compress_label2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-359" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:42:0" msg_body="Unrolling loop 'permute_label1' (C:/hls_projects/compress/compress.cpp:48:18) in function 'permute': changing partial unrolling into complete unrolling since the unrolling factor (=16) is no less than the loop trip count (=16).">
+        <args Factor="16" LoopLoc="C:/hls_projects/compress/compress.cpp:48:18" LoopName="permute_label1" TripCount="16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:42:0" msg_body="Unrolling loop 'permute_label1' (C:/hls_projects/compress/compress.cpp:48:18) in function 'permute' completely with a factor of 16">
+        <args Factor="16" LoopLoc="C:/hls_projects/compress/compress.cpp:48:18" LoopName="permute_label1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-359" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:42:0" msg_body="Unrolling loop 'permute_label0' (C:/hls_projects/compress/compress.cpp:44:18) in function 'permute': changing partial unrolling into complete unrolling since the unrolling factor (=16) is no less than the loop trip count (=16).">
+        <args Factor="16" LoopLoc="C:/hls_projects/compress/compress.cpp:44:18" LoopName="permute_label0" TripCount="16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:42:0" msg_body="Unrolling loop 'permute_label0' (C:/hls_projects/compress/compress.cpp:44:18) in function 'permute' completely with a factor of 16">
+        <args Factor="16" LoopLoc="C:/hls_projects/compress/compress.cpp:44:18" LoopName="permute_label0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:76:11" msg_body="Applying array_partition to 'state': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="state"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="C:/hls_projects/compress/compress.cpp:95:12" msg_body="Applying array_partition to 'block': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="block"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

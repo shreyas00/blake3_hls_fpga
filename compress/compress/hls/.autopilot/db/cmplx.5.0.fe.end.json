@@ -1,0 +1,29 @@
+{
+    "0": {
+        "name": "compress",
+        "file": "compress.cpp",
+        "fileloc": "56",
+        "instructions": "232",
+        "total_instructions": "3599",
+        "calls": "2 2 2 2 2 2 2",
+        "basicblocks": "1"
+    },
+    "1": {
+        "name": "rotate_right",
+        "file": "compress.cpp",
+        "fileloc": "11",
+        "instructions": "10",
+        "total_instructions": "10",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "2": {
+        "name": "round_function",
+        "file": "C:\/hls_projects\/compress\/compress.cpp",
+        "fileloc": "30",
+        "instructions": "161",
+        "total_instructions": "481",
+        "calls": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+        "basicblocks": "1"
+    }
+}

@@ -1,0 +1,19 @@
+<pragmas>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="27" pragmaType="array_partition" parentfunction="round_function" dim="1" factor="0" mode="complete" dynamic="0" variable="m"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="28" pragmaType="array_partition" parentfunction="round_function" dim="1" factor="0" mode="complete" dynamic="0" variable="state"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="49" pragmaType="unroll" parentfunction="permute" factor="16" skip_exit_check="0"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="45" pragmaType="unroll" parentfunction="permute" factor="16" skip_exit_check="0"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="123" pragmaType="unroll" parentfunction="compress" factor="16" skip_exit_check="0"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="116" pragmaType="unroll" parentfunction="compress" factor="-1" skip_exit_check="0"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="97" pragmaType="unroll" parentfunction="compress" factor="16" skip_exit_check="0"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="60" pragmaType="interface" parentfunction="compress" mode="m_axi" port="chaining_value" bundle="data0" offset="slave" name="" depth="-1" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="61" pragmaType="interface" parentfunction="compress" mode="s_axilite" port="chaining_value" bundle="ctrl" offset="-1" name="" clock="" impl="" register="1"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="63" pragmaType="interface" parentfunction="compress" mode="m_axi" port="block_words" bundle="data1" offset="slave" name="" depth="-1" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="64" pragmaType="interface" parentfunction="compress" mode="s_axilite" port="block_words" bundle="ctrl" offset="-1" name="" clock="" impl="" register="1"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="66" pragmaType="interface" parentfunction="compress" mode="s_axilite" port="counter" bundle="ctrl" offset="-1" name="" clock="" impl="" register="1"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="68" pragmaType="interface" parentfunction="compress" mode="s_axilite" port="block_len" bundle="ctrl" offset="-1" name="" clock="" impl="" register="1"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="70" pragmaType="interface" parentfunction="compress" mode="s_axilite" port="flags" bundle="ctrl" offset="-1" name="" clock="" impl="" register="1"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="72" pragmaType="interface" parentfunction="compress" mode="m_axi" port="out" bundle="data2" offset="slave" name="" depth="-1" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="73" pragmaType="interface" parentfunction="compress" mode="s_axilite" port="out" bundle="ctrl" offset="-1" name="" clock="" impl="" register="1"/>
+<pragma file="C:/hls_projects/compress/compress.cpp" line="75" pragmaType="interface" parentfunction="compress" mode="s_axilite" port="" bundle="ctrl" offset="-1" name="" clock="" impl="" register="1"/>
+</pragmas>

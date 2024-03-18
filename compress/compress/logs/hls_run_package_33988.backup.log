@@ -1,0 +1,46 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/hls_projects/compress/compress\compress.hlsrun_package_summary, at 03/06/24 16:10:05
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run package -work_dir C:/hls_projects/compress/compress -config C:/hls_projects/compress/hls_config.cfg -cmdlineconfig C:/hls_projects/compress/compress/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'shrey' on host 'magnus' (Windows NT_amd64 version 6.2) on Wed Mar 06 16:10:06 -0800 2024
+INFO: [HLS 200-10] In directory 'C:/hls_projects/compress'
+INFO: [HLS 200-1909] Reading HLS ini file C:/hls_projects/compress/hls_config.cfg
+INFO: [HLS 200-1909] Reading HLS ini file C:/hls_projects/compress/compress/hls/config.cmdline
+INFO: [HLS 200-2005] Using work_dir C:/hls_projects/compress/compress 
+INFO: [HLS 200-1510] Running: open_project C:/hls_projects/compress/compress -diskless 
+INFO: [HLS 200-1510] Running: open_solution hls 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: apply_ini C:/hls_projects/compress/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file C:/hls_projects/compress/hls_config.cfg
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:\hls_projects\compress\compress.cpp' at C:/hls_projects/compress/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/hls_projects/compress/compress.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:\hls_projects\compress\compress.h' at C:/hls_projects/compress/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/hls_projects/compress/compress.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\hls_projects\compress\compress_test.cpp' at C:/hls_projects/compress/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'C:/hls_projects/compress/compress_test.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=compress' at C:/hls_projects/compress/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at C:/hls_projects/compress/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu2cg-ubva530-1L-i' at C:/hls_projects/compress/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu2cg-ubva530-1L-i'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' at C:/hls_projects/compress/hls_config.cfg(5)
+INFO: [HLS 200-1510] Running: apply_ini C:/hls_projects/compress/compress/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file C:/hls_projects/compress/compress/hls/config.cmdline
+INFO: [HLS 200-1510] Running: export_design -flow none 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+ERROR: [HLS 200-2014] Failed to generated HBM driver object file hbm_helper_aarch64.o
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.497 seconds; current allocated memory: 13.852 MB.
+INFO: [HLS 200-1510] Running: close_project 
+ERROR: 
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 0 seconds. Total elapsed time: 4.41 seconds; peak allocated memory: 173.391 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Wed Mar  6 16:10:10 2024...

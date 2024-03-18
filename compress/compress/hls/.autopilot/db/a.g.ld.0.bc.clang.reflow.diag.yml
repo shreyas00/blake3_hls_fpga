@@ -1,0 +1,880 @@
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaPartially2FullyUnroll
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                   Column: 0 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        compress_label3
+  - String:          ''' ('
+  - LoopLoc:         'C:/hls_projects/compress/compress.cpp:122:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          compress
+  - String:          ''': changing partial unrolling into complete unrolling since the unrolling factor (='
+  - Factor:          '16'
+  - String:          ') is no less than the loop trip count (='
+  - TripCount:       '16'
+  - String:          ').'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                   Column: 0 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        compress_label3
+  - String:          ''' ('
+  - LoopLoc:         'C:/hls_projects/compress/compress.cpp:122:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          compress
+  - String:          ''' completely with a factor of '
+  - Factor:          '16'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                   Column: 0 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        compress_label4
+  - String:          ''' ('
+  - LoopLoc:         'C:/hls_projects/compress/compress.cpp:115:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          compress
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaPartially2FullyUnroll
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                   Column: 0 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        compress_label2
+  - String:          ''' ('
+  - LoopLoc:         'C:/hls_projects/compress/compress.cpp:96:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          compress
+  - String:          ''': changing partial unrolling into complete unrolling since the unrolling factor (='
+  - Factor:          '16'
+  - String:          ') is no less than the loop trip count (='
+  - TripCount:       '16'
+  - String:          ').'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                   Column: 0 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        compress_label2
+  - String:          ''' ('
+  - LoopLoc:         'C:/hls_projects/compress/compress.cpp:96:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          compress
+  - String:          ''' completely with a factor of '
+  - Factor:          '16'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaPartially2FullyUnroll
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 42, 
+                   Column: 0 }
+Function:        _ZL7permutePj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        permute_label1
+  - String:          ''' ('
+  - LoopLoc:         'C:/hls_projects/compress/compress.cpp:48:18'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          permute
+  - String:          ''': changing partial unrolling into complete unrolling since the unrolling factor (='
+  - Factor:          '16'
+  - String:          ') is no less than the loop trip count (='
+  - TripCount:       '16'
+  - String:          ').'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 42, 
+                   Column: 0 }
+Function:        _ZL7permutePj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        permute_label1
+  - String:          ''' ('
+  - LoopLoc:         'C:/hls_projects/compress/compress.cpp:48:18'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          permute
+  - String:          ''' completely with a factor of '
+  - Factor:          '16'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaPartially2FullyUnroll
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 42, 
+                   Column: 0 }
+Function:        _ZL7permutePj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        permute_label0
+  - String:          ''' ('
+  - LoopLoc:         'C:/hls_projects/compress/compress.cpp:44:18'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          permute
+  - String:          ''': changing partial unrolling into complete unrolling since the unrolling factor (='
+  - Factor:          '16'
+  - String:          ') is no less than the loop trip count (='
+  - TripCount:       '16'
+  - String:          ').'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 42, 
+                   Column: 0 }
+Function:        _ZL7permutePj
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        permute_label0
+  - String:          ''' ('
+  - LoopLoc:         'C:/hls_projects/compress/compress.cpp:44:18'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          permute
+  - String:          ''' completely with a factor of '
+  - Factor:          '16'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 76, 
+                   Column: 11 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          state
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 95, 
+                   Column: 12 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          block
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 77, 
+                   Column: 7 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '8'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        chaining_value39seq
+  - ArrayName:       chaining_value
+  - String:          ' '
+  - BundleName:      data0
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 77, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.78
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 78, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.80
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 79, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.82
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 80, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.84
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 81, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.86
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 82, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.88
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 83, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.90
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 84, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.92
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                   Column: 13 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '16'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        block_words40seq
+  - ArrayName:       block_words
+  - String:          ' '
+  - BundleName:      data1
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.131
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.133
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.135
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.137
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.139
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.141
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.143
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.145
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.147
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.149
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.151
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.153
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.155
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.157
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.159
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          entry.load.161
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 126, 
+                   Column: 1 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '16'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        out41seq
+  - ArrayName:       out
+  - String:          ' '
+  - BundleName:      data2
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.240
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.242
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.244
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.246
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.248
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.250
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.252
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.254
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.256
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.258
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.260
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.262
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.264
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.266
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.268
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 124, 
+                       Column: 9 }
+  - OrigDirection:   write
+  - OrigID:          entry.store.270
+...
+--- !Passed
+Pass:            reflow-burst-widen
+Name:            BurstWidened
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 77, 
+                   Column: 7 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of '
+  - OrigLength:      '8'
+  - String:          ' x '
+  - OrigWords:       '32'
+  - String:          'bit words has been widened by '
+  - Factor:          '2'
+  - String:          ': '
+  - Length:          '4'
+  - String:          ' x '
+  - Words:           '64'
+  - String:          bit words
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 77, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          chaining_value39seq
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        wseq
+  - ArrayName:       chaining_value
+  - String:          ' '
+  - BundleName:      data0
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-widen
+Name:            BurstWidened
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                   Column: 13 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of '
+  - OrigLength:      '16'
+  - String:          ' x '
+  - OrigWords:       '32'
+  - String:          'bit words has been widened by '
+  - Factor:          '2'
+  - String:          ': '
+  - Length:          '8'
+  - String:          ' x '
+  - Words:           '64'
+  - String:          bit words
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          block_words40seq
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        wseq42
+  - ArrayName:       block_words
+  - String:          ' '
+  - BundleName:      data1
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-widen
+Name:            BurstWidened
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 126, 
+                   Column: 1 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of '
+  - OrigLength:      '16'
+  - String:          ' x '
+  - OrigWords:       '32'
+  - String:          'bit words has been widened by '
+  - Factor:          '2'
+  - String:          ': '
+  - Length:          '8'
+  - String:          ' x '
+  - Words:           '64'
+  - String:          bit words
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 126, 
+                       Column: 1 }
+  - OrigDirection:   write
+  - OrigID:          out41seq
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        wseq43
+  - ArrayName:       out
+  - String:          ' '
+  - BundleName:      data2
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 77, 
+                   Column: 7 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i64
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '8'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 77, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          wseq
+  - ArrayName:       chaining_value
+  - String:          ' '
+  - BundleName:      data0
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                   Column: 13 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i64
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '8'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          wseq42
+  - ArrayName:       block_words
+  - String:          ' '
+  - BundleName:      data1
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 126, 
+                   Column: 1 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i64
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '8'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 126, 
+                       Column: 1 }
+  - OrigDirection:   write
+  - OrigID:          wseq43
+  - ArrayName:       out
+  - String:          ' '
+  - BundleName:      data2
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 77, 
+                   Column: 7 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i64
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '8'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 77, 
+                       Column: 7 }
+  - OrigDirection:   read
+  - OrigID:          wseq
+  - ArrayName:       chaining_value
+  - String:          ' '
+  - BundleName:      data0
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                   Column: 13 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i64
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '8'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                       Column: 13 }
+  - OrigDirection:   read
+  - OrigID:          wseq42
+  - ArrayName:       block_words
+  - String:          ' '
+  - BundleName:      data1
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 126, 
+                   Column: 1 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i64
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '8'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 126, 
+                       Column: 1 }
+  - OrigDirection:   write
+  - OrigID:          wseq43
+  - ArrayName:       out
+  - String:          ' '
+  - BundleName:      data2
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 77, 
+                   Column: 7 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of length '
+  - Length:          '4'
+  - String:          ' and bit width '
+  - Width:           '64'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      data0
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 77, 
+                   Column: 7 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of length '
+  - Length:          '4'
+  - String:          ' and bit width '
+  - Width:           '64'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      data0
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                   Column: 13 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of length '
+  - Length:          '8'
+  - String:          ' and bit width '
+  - Width:           '64'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq1
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      data1
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 98, 
+                   Column: 13 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of length '
+  - Length:          '8'
+  - String:          ' and bit width '
+  - Width:           '64'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      data1
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 126, 
+                   Column: 1 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '8'
+  - String:          ' and bit width '
+  - Width:           '64'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq2
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      data2
+  - String:          ' '
+  - Function:        'compress(unsigned int const*, unsigned int const*, unsigned long long, unsigned int, unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 59, 
+                       Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: 'C:/hls_projects/compress/compress.cpp', Line: 126, 
+                   Column: 1 }
+Function:        _Z8compressPKjS0_yjjPj
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '8'
+  - String:          ' and bit width '
+  - Width:           '64'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      data2
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...

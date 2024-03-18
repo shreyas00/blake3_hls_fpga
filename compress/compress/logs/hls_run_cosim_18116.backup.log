@@ -1,0 +1,66 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/hls_projects/compress/compress\compress.hlsrun_cosim_summary, at 03/09/24 10:39:24
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run cosim -work_dir C:/hls_projects/compress/compress -config C:/hls_projects/compress/hls_config.cfg -cmdlineconfig C:/hls_projects/compress/compress/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'shrey' on host 'magnus' (Windows NT_amd64 version 6.2) on Sat Mar 09 10:39:26 -0800 2024
+INFO: [HLS 200-10] In directory 'C:/hls_projects/compress'
+INFO: [HLS 200-1909] Reading HLS ini file C:/hls_projects/compress/hls_config.cfg
+INFO: [HLS 200-1909] Reading HLS ini file C:/hls_projects/compress/compress/hls/config.cmdline
+INFO: [HLS 200-2005] Using work_dir C:/hls_projects/compress/compress 
+INFO: [HLS 200-1510] Running: open_project C:/hls_projects/compress/compress -diskless 
+INFO: [HLS 200-1510] Running: open_solution hls 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: apply_ini C:/hls_projects/compress/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file C:/hls_projects/compress/hls_config.cfg
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:\hls_projects\compress\compress.cpp' at C:/hls_projects/compress/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/hls_projects/compress/compress.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:\hls_projects\compress\compress.h' at C:/hls_projects/compress/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/hls_projects/compress/compress.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\hls_projects\compress\compress_test.cpp' at C:/hls_projects/compress/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'C:/hls_projects/compress/compress_test.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=compress' at C:/hls_projects/compress/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at C:/hls_projects/compress/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xck26-sfvc784-2LV-c' at C:/hls_projects/compress/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
+INFO: [HLS 200-1465] Applying ini 'package.ip.version=1.0.0' at C:/hls_projects/compress/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' at C:/hls_projects/compress/hls_config.cfg(5)
+INFO: [HLS 200-1465] Applying ini 'syn.interface.m_axi_alignment_byte_size=8' at C:/hls_projects/compress/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying ini 'syn.interface.m_axi_max_widen_bitwidth=512' at C:/hls_projects/compress/hls_config.cfg(12)
+INFO: [HLS 200-1510] Running: apply_ini C:/hls_projects/compress/compress/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file C:/hls_projects/compress/compress/hls/config.cmdline
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "C:/Xilinx/Vitis_HLS/2023.2/tps/win64/msys64/mingw64/bin/g++"
+   Compiling compress_test.cpp_pre.cpp.tb.cpp
+   Compiling compress.cpp_pre.cpp.tb.cpp
+   Compiling apatb_compress.cpp
+   Compiling apatb_compress_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Assertion failed!
+
+Program: C:\hls_projects\compress\compress\hls\sim\wrapc\cosim.tv.exe
+File: C:/hls_projects/compress/compress_test.cpp, Line 63
+
+Expression: out16[i] == out16_ref[i]
+ERROR: [COSIM 212-359] Aborting co-simulation: C TB simulation failed, nonzero return value '3'.
+ERROR: [COSIM 212-320] C TB testing failed, stop generating test vectors. Please check C TB or re-run cosim.
+ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.505 seconds; current allocated memory: 4.715 MB.
+INFO: [HLS 200-1510] Running: close_project 
+ERROR: 
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 0 seconds. Total elapsed time: 5.437 seconds; peak allocated memory: 163.469 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Sat Mar  9 10:39:31 2024...

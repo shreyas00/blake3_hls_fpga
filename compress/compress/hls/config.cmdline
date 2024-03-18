@@ -1,0 +1,3 @@
+relativeroot=C:/hls_projects/compress
+original_argv=--mode hls --csim --config C:\hls_projects\compress\hls_config.cfg --work_dir compress 
+

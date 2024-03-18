@@ -1,0 +1,60 @@
+{
+  "0": {
+    "basicblocks": 19,
+    "calls": "2 3 2 3 2 3 2 3 2 3 2 3 2",
+    "file": "compress.cpp",
+    "fileloc": 56,
+    "instructions": 158,
+    "loads": {
+      "G": 4,
+      "L": 4,
+      "T": 10
+    },
+    "name": "compress",
+    "stores": {
+      "L": 19,
+      "T": 1
+    },
+    "total_instructions": 5199
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "compress.cpp",
+    "fileloc": 11,
+    "instructions": 5,
+    "name": "rotate_right",
+    "total_instructions": 5
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+    "file": "compress.cpp",
+    "fileloc": 26,
+    "instructions": 531,
+    "loads": {
+      "L": 144
+    },
+    "name": "round_function",
+    "stores": {
+      "L": 64
+    },
+    "total_instructions": 691
+  },
+  "3": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "compress.cpp",
+    "fileloc": 42,
+    "instructions": 34,
+    "loads": {
+      "G": 1,
+      "L": 2
+    },
+    "name": "permute",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 34
+  }
+}

@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/hls_projects\\compress\\compress\\compress.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "03/17/24 18:51:50",
+ "timestampMillis": "1329726523",
+ "buildStep": {
+  "cmdId": "4c3e67b4-1cd9-43c2-802c-aa6519c8913d",
+  "name": "vitis-run",
+  "logFile": "C:/hls_projects\\compress\\compress\\logs\\compress.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2023.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\hls_projects\\compress\\hls_config.cfg --work_dir compress ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\hls_projects\\compress\\hls_config.cfg",
+   "--work_dir",
+   "compress"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\hls_projects\\compress"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/17/24 18:51:50",
+ "timestampMillis": "1329726527",
+ "status": {
+  "cmdId": "4c3e67b4-1cd9-43c2-802c-aa6519c8913d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "03/17/24 18:51:58",
+ "timestampMillis": "1329734970",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "compress",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/hls_projects\\compress\\compress.cpp",
+     "C:/hls_projects\\compress\\compress.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2023.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "03/17/24 18:51:58",
+ "timestampMillis": "1329734972",
+ "buildStep": {
+  "cmdId": "0d4e94c4-4e16-4019-8f14-953b995f75ff",
+  "name": "csim_design",
+  "logFile": "C:/hls_projects\\compress\\compress\\hls\\hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\hls_projects\\compress"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/17/24 18:51:58",
+ "timestampMillis": "1329734974",
+ "status": {
+  "cmdId": "0d4e94c4-4e16-4019-8f14-953b995f75ff",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/17/24 18:51:59",
+ "timestampMillis": "1329736007",
+ "status": {
+  "cmdId": "0d4e94c4-4e16-4019-8f14-953b995f75ff",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/17/24 18:52:00",
+ "timestampMillis": "1329736334",
+ "status": {
+  "cmdId": "4c3e67b4-1cd9-43c2-802c-aa6519c8913d",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/17/24 18:52:00",
+ "timestampMillis": "1329736334",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/17/24 18:52:00",
+ "timestampMillis": "1329736335",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
